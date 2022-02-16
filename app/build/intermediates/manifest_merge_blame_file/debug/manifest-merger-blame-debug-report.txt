@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.indoorlocalization"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:5:5-92
+11-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:6:5-95
+12-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:7:5-92
+13-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:8:5-97
+14-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:9:5-95
+15-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:10:5-83
+16-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:10:22-64
+17
+18    <application
+18-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:12:5-29:19
+19        android:allowBackup="true"
+19-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/ae31cc97a3f9383e0242537d69427d3a/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:15:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:16:9-54
+26        android:supportsRtl="true"
+26-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:17:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.HelloWorld" >
+28-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:18:9-48
+29        <activity android:name="com.example.indoorlocalization.MainActivity" >
+29-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:19:9-25:20
+29-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:19:19-77
+30            <intent-filter>
+30-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:21:17-69
+31-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:23:17-77
+33-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.example.indoorlocalization.LearnActivity" />
+36-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:26:9-60
+36-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:26:19-48
+37        <activity android:name="com.example.indoorlocalization.LocateActivity" />
+37-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:27:9-61
+37-->/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:27:19-49
+38    </application>
+39
+40</manifest>

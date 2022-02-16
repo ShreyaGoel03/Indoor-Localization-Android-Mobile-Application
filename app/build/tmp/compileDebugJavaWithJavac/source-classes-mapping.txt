@@ -1,0 +1,41 @@
+com/example/indoorlocalization/LocateKNNFragment.java
+ com.example.indoorlocalization.LocateKNNFragment
+ com.example.indoorlocalization.LocateKNNFragment$1
+com/example/indoorlocalization/DaoClass/TestDao.java
+ com.example.indoorlocalization.DaoClass.TestDao
+com/example/indoorlocalization/MainActivity.java
+ com.example.indoorlocalization.MainActivity
+ com.example.indoorlocalization.MainActivity$1
+ com.example.indoorlocalization.MainActivity$2
+ com.example.indoorlocalization.MainActivity$3
+ com.example.indoorlocalization.MainActivity$MyAdapter
+ com.example.indoorlocalization.MainActivity$MyAdapter$DetailsViewHolder
+com/example/indoorlocalization/RoomDatabaseActivity.java
+ com.example.indoorlocalization.RoomDatabaseActivity
+com/example/indoorlocalization/BuildConfig.java
+ com.example.indoorlocalization.BuildConfig
+com/example/indoorlocalization/CalculateDistance.java
+ com.example.indoorlocalization.CalculateDistance
+com/example/indoorlocalization/LocateSimpleFragment.java
+ com.example.indoorlocalization.LocateSimpleFragment
+com/example/indoorlocalization/DaoClass/TrainingDao.java
+ com.example.indoorlocalization.DaoClass.TrainingDao
+com/example/indoorlocalization/EntityClass/TrainingEntity.java
+ com.example.indoorlocalization.EntityClass.TrainingEntity
+com/example/indoorlocalization/RecyclerData_Wifi.java
+ com.example.indoorlocalization.RecyclerData_Wifi
+com/example/indoorlocalization/EntityClass/TestEntity.java
+ com.example.indoorlocalization.EntityClass.TestEntity
+com/example/indoorlocalization/LearnActivity.java
+ com.example.indoorlocalization.LearnActivity
+ com.example.indoorlocalization.LearnActivity$1
+ com.example.indoorlocalization.LearnActivity$2
+ com.example.indoorlocalization.LearnActivity$3
+ com.example.indoorlocalization.LearnActivity$4
+ com.example.indoorlocalization.LearnActivity$5
+com/example/indoorlocalization/LocateActivity.java
+ com.example.indoorlocalization.LocateActivity
+ com.example.indoorlocalization.LocateActivity$1
+ com.example.indoorlocalization.LocateActivity$2
+ com.example.indoorlocalization.LocateActivity$3
+ com.example.indoorlocalization.LocateActivity$4

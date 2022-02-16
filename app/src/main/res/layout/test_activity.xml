@@ -1,0 +1,67 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height= "match_parent"
+    android:layout_width= "match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="379dp"
+            android:layout_height="57dp"
+            android:gravity="center_horizontal"
+            android:text="@string/intro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/intro1"
+            android:layout_width="355dp"
+            android:layout_height="55dp"
+            android:gravity="center_horizontal"
+            android:text="@string/choose"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/locate_simple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:text="Locate Simply" />
+
+            <Button
+                android:id="@+id/locate_knn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="14dp"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:text="Locate via KNN" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentcontainer"
+            android:name="com.example.musicplayer.PlayMusic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

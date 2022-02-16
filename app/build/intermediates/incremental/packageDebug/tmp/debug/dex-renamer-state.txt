@@ -1,0 +1,7 @@
+#Sun Apr 18 22:51:32 IST 2021
+base.0=/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/shreya1/AndroidStudioProjects/Assignment5/assignment0-shreyagoel54/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
